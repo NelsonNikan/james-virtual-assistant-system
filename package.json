@@ -1,0 +1,26 @@
+{
+  "name": "api-node-gemini",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsx watch ./src/server.ts",
+    "build": "tsup ./src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.25",
+    "tsup": "^8.0.2",
+    "tsx": "^4.7.1",
+    "typescript": "^5.4.2"
+  },
+  "dependencies": {
+    "@fastify/cors": "^9.0.1",
+    "@google/generative-ai": "^0.2.1",
+    "fastify": "^4.26.2",
+    "zod": "^3.22.4"
+  }
+}
